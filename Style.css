@@ -1,0 +1,48 @@
+img{
+    width: 900px;
+    height: 1320px;
+}
+
+
+.button{
+    padding: 10px 20px;
+    width: 400px;
+    height: 40px;
+    border-radius: 12px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(214, 49, 49);
+    font-weight: bold;
+    text-decoration: none; 
+    font-size: 16px;
+}
+
+.button:visited {
+    color: rgb(255, 255, 255);
+    background-color: rgb(214, 49, 49);
+    text-decoration: none;
+
+}
+
+.button:hover {
+    color: rgb(214, 49, 49);
+    background-color: rgb(255, 255, 255);
+    border-color: black;
+    border-style: solid;
+}
+
+.GOBACK{
+    padding: 10px 20px;
+    width: 400px;
+    height: 40px;
+    border-radius: 12px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(214, 49, 49);
+    font-weight: bold;
+    text-decoration: none; 
+    font-size: 16px;
+    margin: 10px;
+}
+
+#gobackid{
+    margin: 40px 10px;
+}
