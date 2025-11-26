@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Templates gallery</title>
+        <link rel="stylesheet" href="cardStyle.css">
+        <script type="module" src="main.js"></script>
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.11.1/styles/default.min.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.11.1/highlight.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.11.1/languages/javascript.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.11.1/languages/css.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.11.1/languages/xml.min.js"></script>
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlightjs-line-numbers.js/2.8.0/styles/default.min.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlightjs-line-numbers.js/2.8.0/highlightjs-line-numbers.min.js"></script>
+        <script>
+            hljs.highlightAll();
+            hljs.initLineNumbersOnLoad();
+        </script>
+    </head>
+    <body>
+        <header>
+            <div class="back-button">
+                <a type="button" href="index.html">&#x1F850;</a>
+            </div>
+            <button id="myButton" type="button">BUTTON!</button>
+        </header>
+        <main>
+            <div class="code-card">
+                <h3>HTML</h3>
+                <pre class="code-block">
+                <code class="language-html">&lt;header&gt;
+    &lt;button type="button"&gt;BUTTON!&lt;/button&gt;
+&lt;/header&gt;
+                </code>
+                </pre>
+            </div>
+
+            <div class="code-card">
+                <h3>CSS</h3>
+                <pre class="code-block">
+                <code class="language-css">button {
+    width: 400px;
+    height: 60px;
+    min-width: 200px;
+    border-radius: 12px;
+    background-color: #dd5c34;
+    color: white;
+    border: none;
+    transition: 0.3s;
+}
+
+button:hover {
+    -ms-transform: scale(1.1);
+    /* IE 9 */
+    -webkit-transform: scale(1.1);
+    /* Safari 3-8 */
+    transform: scale(1.1);
+}</code>
+                </pre>
+            </div>
+
+            <div class="code-card">
+                <h3>JS</h3>
+                <pre class="code-block">
+                <code class="language-javascript">document.getElementById("myButton").addEventListener("click", function() {
+    alert("Button was clicked!");
+});</code>
+                </pre>
+
+            </div>
+        </main>
+        <footer>
+
+        </footer>
+
+    </body>
+</html>

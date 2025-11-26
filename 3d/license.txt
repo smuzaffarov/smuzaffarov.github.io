@@ -1,0 +1,8 @@
+Model Information:
+* title:	Spiky Spheres pack
+* source:	https://sketchfab.com/3d-models/spiky-spheres-pack-5590888d474e4e1ca81ffc1dd815d01b
+* author:	abhayexe (https://sketchfab.com/abhayexe)
+
+Model License:
+* license type:	SKETCHFAB Standard (https://sketchfab.com/licenses)
+* requirements:	Under basic restrictions, use worldwide, on all types of media, commercially or not, and in all types of derivative works

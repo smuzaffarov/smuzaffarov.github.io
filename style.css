@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+}
+
+
+header {
+    display: flex;
+    background-color: #dd5c34;
+    color: white;
+    height: 70px;
+    padding-left: 10px;
+    text-transform: uppercase;
+    align-items: center;
+}
+
+header h1{
+    align-items: center;
+}
+
+@media only screen and (max-width: 685px) {
+  main {
+    display: flex;
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    }
+
+
+}
+
+main {
+    display: flex;
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div {
+    border: solid 1px;
+    max-width: 400px;
+    min-width: 400px;
+    border-radius: 12px;
+    margin: 20px;
+    overflow: hidden;
+    transition: 0.3s;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+div img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 100%;
+    height: 165px;
+    object-fit: cover;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+.information-card {
+    display: block;
+    position: relative;
+    max-height: 120px;
+    border: 0px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.information-card::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 40px;              
+    background: linear-gradient(
+        to bottom,
+        rgba(255,255,255,0) 0%,
+        rgba(255,255,255,1) 100%
+    );
+    pointer-events: none;      
+}
+
+
+div a {
+    text-decoration: none;
+    color: #39375c;
+}
+
+.theWholeCard:hover {
+    -ms-transform: scale(1.1);
+    /* IE 9 */
+    -webkit-transform: scale(1.1);
+    /* Safari 3-8 */
+    transform: scale(1.1);
+}
