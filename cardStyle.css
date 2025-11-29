@@ -73,6 +73,7 @@ header .back-button a{
     top: 20px;
     left: 20px;
     text-decoration: none;
+    z-index: 9999; /*  IMPORTANT */
 }
 
 header .back-button a:hover {
@@ -184,4 +185,15 @@ a.download-link:hover {
     height: 100vh;
     position: relative;
     z-index: 1;
+}
+
+/* 3D */
+#container3D_2 {
+  position: fixed;      
+  bottom: 20px;         
+  right: 20px;     
+  width: 120px;        
+  height: 120px;        
+  z-index: 9999;        
+  pointer-events: none; 
 }
