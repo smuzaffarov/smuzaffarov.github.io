@@ -17,16 +17,22 @@
             hljs.highlightAll();
             hljs.initLineNumbersOnLoad();
         </script>
+        <script type="importmap">
+        {
+        "imports": {
+            "three": "https://cdn.jsdelivr.net/npm/three@0.181.2/build/three.module.js",
+            "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.181.2/examples/jsm/"
+        }
+        }
+        </script>
     </head>
     <body>
         <header>
             <div class="back-button">
                 <a type="button" href="index.html">&#x1F850;</a>
             </div>
-            <div id="container3D">
-
-            </div>
         </header>
+        <div id="container3D"></div>
         <main>
             <div class="code-card">
                 <h3>HTML</h3>

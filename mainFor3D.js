@@ -1,6 +1,8 @@
 import * as THREE from "https://cdn.jsdelivr.net/npm/three@0.181.2/build/three.module.js";
-import { OrbitControls } from 'https://unpkg.com/three@0.169.0/examples/jsm/controls/OrbitControls.js';
-import { GLTFLoader } from "https://cdn.jsdelivr.net/npm/three@0.181.2/examples/jsm/loader/GLTFLoader.js";
+import { OrbitControls } from "https://cdn.jsdelivr.net/npm/three@0.181.2/examples/jsm/controls/OrbitControls.js";
+import { GLTFLoader } from "https://cdn.jsdelivr.net/npm/three@0.181.2/examples/jsm/loaders/GLTFLoader.js";
+
+
 
 //3D
 
@@ -23,8 +25,7 @@ const loader = new GLTFLoader();
 
 
 // Load the GLTF file
-loader.load(
-    '3d/scene/scene.gltf',
+loader.load('3d/scene.gltf',
 
     // When the file is successfully loaded
     function (gltf) {
@@ -43,16 +44,24 @@ loader.load(
     }
 );
 
+
+
+// Renderer
 // Create a new WebGL renderer with a transparent background
 const renderer = new THREE.WebGLRenderer({ alpha: true }); 
 // Set the renderer size to the full window
 renderer.setSize(window.innerWidth, window.innerHeight);
-
 document.getElementById("container3D").appendChild(renderer.domElement)
 
-// Set how far the camera will be from the 3D model
-camera.position.z = objToRender === "dino" ? 25 : 500;
+// Controls
+controls = new OrbitControls(camera, renderer.domElement);
+controls.enableDamping = true;
 
+// Set how far the camera will be from the 3D model
+// camera.position.z = objToRender === "dino" ? 25 : 500;
+camera.position.z = 5;
+
+// Lights
 // Add lights to the scene so we can actually see the 3D model
 const topLight = new THREE.DirectionalLight(0xffffff, 1); // (color, intensity)
 topLight.position.set(500, 500, 500); // top-left-ish direction
