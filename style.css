@@ -11,10 +11,15 @@ header {
     padding-left: 10px;
     text-transform: uppercase;
     align-items: center;
+    gap: 10px;
 }
 
-header h1{
+header img{
     align-items: center;
+}
+
+#main-logo-site-title {
+    width: 80px;
 }
 
 @media only screen and (max-width: 685px) {
