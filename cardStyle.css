@@ -21,7 +21,7 @@ header input {
     width: 100%;
     max-width: 450px;
     min-width: 250px;
-    height: 40px;
+    min-height: 40px;
     border-radius: 100px;
     border: none;
     padding-left: 10px; 
@@ -203,4 +203,30 @@ a.download-link:hover {
   height: 120px;        
   z-index: 9999;        
   pointer-events: none; 
+}
+
+
+
+@media only screen and (max-width: 1264px) {
+    header .back-button a{
+        border: 2px solid #39375c;
+        background-color: #39375c33;
+        color: #39375c;
+        border-radius: 6px;
+        padding: 20px 24px;
+        text-align: left;
+        position: fixed;
+        top: 20px;
+        left: 20px;
+        text-decoration: none;
+        z-index: 9999; /* IMPORTANT THING THAT I NOTICED */
+    }
+
+    header input {
+        width: 100%;
+        max-width: 500px;
+        min-width: 400px;
+        min-height: 50px;
+    }
+
 }
