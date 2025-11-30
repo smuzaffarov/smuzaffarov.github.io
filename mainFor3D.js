@@ -18,7 +18,7 @@ let controls;
 const loader = new GLTFLoader();
 
 // Load the GLTF file
-loader.load('3d/scene.gltf',
+loader.load('Sph3d/sphereobj.gltf',
 
     // When the file is successfully loaded
     function (gltf) {

@@ -6,11 +6,9 @@ import { GLTFLoader } from "https://cdn.jsdelivr.net/npm/three@0.181.2/examples/
 
 //3D
 //Creat a scene
-
-const container = document.getElementById("container3D_2");
 const scene = new THREE.Scene();
 //Camera
-const camera = new THREE.PerspectiveCamera(70, container.clientWidth / container.clientHeight, 0.1, 1000);
+const camera = new THREE.PerspectiveCamera(70, window.innerWidth / window.innerHeight, 0.1, 1000);
 
 //Obj variable
 let object;
@@ -18,9 +16,8 @@ let object;
 let controls;
 
 const loader = new GLTFLoader();
-
 // Load the GLTF file
-loader.load('Sph3d/sphereobj.gltf',
+loader.load('Koal3d/scene.gltf',
 
     // When the file is successfully loaded
     function (gltf) {
@@ -46,8 +43,8 @@ loader.load('Sph3d/sphereobj.gltf',
 // Create a new WebGL renderer with a transparent background
 const renderer = new THREE.WebGLRenderer({ alpha: true }); 
 // Set the renderer size to the full window
-renderer.setSize(container.clientWidth, container.clientHeight);
-container.appendChild(renderer.domElement);
+renderer.setSize(window.innerWidth, window.innerHeight);
+document.getElementById("container3D").appendChild(renderer.domElement)
 // RENDER END
 
 
@@ -87,13 +84,10 @@ function animate() {
 
 // Adjust the camera and renderer when the window is resized
 window.addEventListener("resize", function () {
-  const width = container.clientWidth;
-  const height = container.clientHeight;
+    camera.aspect = window.innerWidth / window.innerHeight;
+    camera.updateProjectionMatrix();
 
-  camera.aspect = width / height;
-  camera.updateProjectionMatrix();
-
-  renderer.setSize(width, height);
+    renderer.setSize(window.innerWidth, window.innerHeight);
 });
 
 animate();
