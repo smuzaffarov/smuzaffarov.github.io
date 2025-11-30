@@ -1,9 +1,13 @@
-* {
-    box-sizing: border-box;
+body {
+    font-family: Arial, Helvetica, sans-serif !important;
 }
 
-*:not(code) { 
-    font-family: Arial, Helvetica, sans-serif !important;
+code, pre {
+    font-family: "Fira Code", monospace !important;
+}
+
+* {
+    box-sizing: border-box;
 }
 
 h1 {
@@ -210,6 +214,13 @@ a.download-link:hover {
   pointer-events: none; 
 }
 
+#cube3d_2 {
+    background-image: url("Cube/904bdd9a4687202c367935d040777be0-2711141815.jpg");
+    background-size: cover;
+    background-attachment: scroll;
+    border-radius: 10px;
+    margin-top: 10px
+}
 
 
 
