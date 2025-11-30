@@ -27,13 +27,20 @@ header img{
   main {
     display: flex;
     margin: 20px;
-    display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
     }
-
-
+    
+    div {
+        width: 100%;
+        max-width: 100%;
+        min-width: 0;
+        margin: 10px 0;
+    }
 }
+
 
 main {
     display: flex;
@@ -42,6 +49,9 @@ main {
     flex-wrap: wrap;
     justify-content: center
 }
+
+
+
 
 div {
     border: solid 1px;
