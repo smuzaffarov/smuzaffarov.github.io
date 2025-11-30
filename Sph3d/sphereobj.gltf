@@ -3,9 +3,6 @@
 		"generator":"Khronos glTF Blender I/O v5.0.21",
 		"version":"2.0"
 	},
-	"extensionsUsed":[
-		"KHR_materials_transmission"
-	],
 	"scene":0,
 	"scenes":[
 		{
@@ -24,21 +21,22 @@
 	"materials":[
 		{
 			"doubleSided":true,
-			"extensions":{
-				"KHR_materials_transmission":{
-					"transmissionFactor":0.6272727251052856
-				}
-			},
-			"name":"Material.005",
+			"name":"Main",
 			"pbrMetallicRoughness":{
-				"metallicFactor":0,
-				"roughnessFactor":0.25
+				"baseColorFactor":[
+					0.1309344619512558,
+					0.1309344619512558,
+					0.1309344619512558,
+					1
+				],
+				"metallicFactor":0.5363636016845703,
+				"roughnessFactor":0.22272726893424988
 			}
 		}
 	],
 	"meshes":[
 		{
-			"name":"Sphere",
+			"name":"Sphere.001",
 			"primitives":[
 				{
 					"attributes":{
@@ -56,67 +54,67 @@
 		{
 			"bufferView":0,
 			"componentType":5126,
-			"count":23322733,
+			"count":364544,
 			"max":[
-				1.667829990386963,
-				1.6103109121322632,
-				1.6678297519683838
+				1.4566197395324707,
+				1.4033888578414917,
+				1.4566195011138916
 			],
 			"min":[
-				-1.6678295135498047,
-				-1.6103107929229736,
-				-1.6678298711776733
+				-1.4566195011138916,
+				-1.4033886194229126,
+				-1.456619381904602
 			],
 			"type":"VEC3"
 		},
 		{
 			"bufferView":1,
 			"componentType":5126,
-			"count":23322733,
+			"count":364544,
 			"type":"VEC3"
 		},
 		{
 			"bufferView":2,
 			"componentType":5126,
-			"count":23322733,
+			"count":364544,
 			"type":"VEC2"
 		},
 		{
 			"bufferView":3,
 			"componentType":5125,
-			"count":34996224,
+			"count":546816,
 			"type":"SCALAR"
 		}
 	],
 	"bufferViews":[
 		{
 			"buffer":0,
-			"byteLength":279872796,
+			"byteLength":4374528,
 			"byteOffset":0,
 			"target":34962
 		},
 		{
 			"buffer":0,
-			"byteLength":279872796,
-			"byteOffset":279872796,
+			"byteLength":4374528,
+			"byteOffset":4374528,
 			"target":34962
 		},
 		{
 			"buffer":0,
-			"byteLength":186581864,
-			"byteOffset":559745592,
+			"byteLength":2916352,
+			"byteOffset":8749056,
 			"target":34962
 		},
 		{
 			"buffer":0,
-			"byteLength":139984896,
-			"byteOffset":746327456,
+			"byteLength":2187264,
+			"byteOffset":11665408,
 			"target":34963
 		}
 	],
 	"buffers":[
 		{
-			"byteLength":886312352,
+			"byteLength":13852672,
 			"uri":"sphereobj.bin"
 		}
 	]

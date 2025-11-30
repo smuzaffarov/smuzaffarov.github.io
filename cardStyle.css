@@ -4,6 +4,7 @@
 
 h1 {
     color: white;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 header {
@@ -70,6 +71,7 @@ header input:focus{
 header .back-button a{
     border: 2px solid #39375c;
     background-color: #39375c33;
+    color: #39375c;
     border-radius: 6px;
     padding: 10px 14px;
     text-align: left;
@@ -86,8 +88,7 @@ header .back-button a:hover {
 }
 
 header .back-button a:visited {
-    color: inherit;
-    color: inherit;
+    text-decoration: none;
 }
 
 td.hljs-ln-line.hljs-ln-code {

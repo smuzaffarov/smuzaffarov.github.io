@@ -54,19 +54,19 @@ controls = new OrbitControls(camera, renderer.domElement);
 // To make it static not in the scene //IMPORTANT
 controls.enabled = false;
 // Set how far the camera will be from the 3D model
-camera.position.z = 3;
+camera.position.z = 4;
 // CONTROL END
 
 
 // LIGHTS
 // Add lights to the scene so we can actually see the 3D model
-const directionalLight  = new THREE.DirectionalLight(0xffffff, 5); // (color, intensity)
+const directionalLight  = new THREE.DirectionalLight(0xffffff, 2); // (color, intensity)
 directionalLight.position.set(500, 500, 500); // top-left-ish direction
 directionalLight.shadow = true;
 scene.add(directionalLight);
 // This light globally illuminates all objects in the scene equally
 // Add ambient light for softer global lighting
-const ambientLight = new THREE.AmbientLight( 0xffffff, 10 ); // (color, intensity)
+const ambientLight = new THREE.AmbientLight( 0xffffff, 1 ); // (color, intensity)
 scene.add(ambientLight);
 // LIGHTS END
 
@@ -77,7 +77,7 @@ function animate() {
     if (object) {
         let scroll = window.scrollY;
         object.rotation.y = scroll * 0.005;
-        object.rotation.x = scroll * 0.003;
+        object.rotation.x = scroll * 0.001;
     }
 
     renderer.render(scene, camera);
