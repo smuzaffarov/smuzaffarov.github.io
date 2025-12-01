@@ -1,6 +1,6 @@
 # Hello! 
 
-This is the **PROJECT** based on only **frontend development**, and this project uses nodes such as **highlight.js** and **three.js**, and simple **JavaScript**, **CSS**, and **HTML**.  
+This is the **PROJECT** based on only **frontend development**, and this project uses nodes such as **highlight.js** and **three.js**, and simple **JavaScript**, **CSS**, and **HTML**. Site that stores on git servers 
 All links are below
 
 ## > Site for publicly use
@@ -16,6 +16,7 @@ All links are below
 Hope you will find this site and this project useful =)) 
 I will leave all links on every node that I use and maybe it will make it easier for you to find and download the necessary packages! 
 All files that I provided in the Project you can download *(Its going to be in ZIP format)*
+Interesting information: I deleted some of the history from GitHub because the repository size became more than 800 MB, and the only option I had was to delete the file from all actions, history, and the repository
 
 ---
 
@@ -24,3 +25,20 @@ In this project I use one more library besides highlight.js --> highlightjs-line
 - https://highlightjs.org/  - **highlight.js**
 - https://threejs.org/  - **threejs**
 - https://nodejs.org/en/learn/getting-started/an-introduction-to-the-npm-package-manager  - **npm**
+
+## How to run locally
+
+1. Clone the repo
+2. Run any simple static server, for example:
+   npx serve .
+   or 
+   python -m http.server
+3. Open http://localhost:3000 in your browser
+
+
+
+---
+title: The site FH Fhelper (Stand for FrontEnd Helper) helping people with FrontEnd development.
+author: Sarvar Muzaffarov
+date: 11/25/2025
+---
