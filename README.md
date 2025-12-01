@@ -12,7 +12,7 @@ On some Firefox browsers, WebGL or WebGL2 may be disabled by default, which prev
 
 
 
-## > Site for publicly use
+## Site for publicly use
 > - Educational site with the code and previews of the example what that code doing 
 > - This project included some 3D objects in GLTF format, it's free to use in your project all models made by @SarvarMuzaffarov and they don't have any license (Use as you think and want :) 
 > - This site shows and for now include only 4 HTML and main HTML -> Index
