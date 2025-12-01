@@ -25,7 +25,7 @@ On some Firefox browsers, WebGL or WebGL2 may be disabled by default, which prev
 Hope you will find this site and this project useful =)) 
 I will leave all links on every node that I use and maybe it will make it easier for you to find and download the necessary packages! 
 All files that I provided in the Project you can download *(Its going to be in ZIP format)*
-Interesting information: I deleted some of the history from GitHub because the repository size became more than 800 MB, and the only option I had was to delete the file from all actions, history, and the repository
+Interesting information: I deleted some of the history from GitHub because the repository size became more than 800 MB, and the only option I had was to delete the file from all actions, history, and the repository (I used git-filter-repo)
 
 ---
 
