@@ -14,11 +14,11 @@ On some Firefox browsers, WebGL or WebGL2 may be disabled by default, which prev
 
 ## > Site for publicly use
 > - Educational site with the code and previews of the example what that code doing 
-> - This project included some 3D objects in GLTF format, it's free to use in your project all models made by @SarvarMuzaffarov and they don't have any license (Use as you think and you want :) 
+> - This project included some 3D objects in GLTF format, it's free to use in your project all models made by @SarvarMuzaffarov and they don't have any license (Use as you think and want :) 
 > - This site shows and for now include only 4 HTML and main HTML -> Index
 > - For use the and try yourself the code you need download the npx node and use it as a server (it's easier to do so) 
 > - This site shows the 3D objects mainly how the THREE.js working on the real sites and how you can implement them. 
-> - Highlight Js need for the holight code on the browser. it's not the editor. We assonb code from the HTML property 
+> - Highlight Js need for the highlight code on the browser. it's not the editor. We using/changing code from the HTML property 
 
 ---
 
