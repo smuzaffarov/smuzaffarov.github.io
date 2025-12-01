@@ -3,6 +3,15 @@
 This is the **PROJECT** based on only **frontend development**, and this project uses nodes such as **highlight.js** and **three.js**, and simple **JavaScript**, **CSS**, and **HTML**. Site that stores on git servers 
 All links are below
 
+## Three.js uses WebGL to render 3D graphics
+On some Firefox browsers, WebGL or WebGL2 may be disabled by default, which prevents Three.js from creating a rendering context. As a result, the scene works correctly in Chromium-based browsers (Chrome, Edge, Brave), but may fail in Firefox. To fix it:
+
+1. type about:config in Fierfox
+2. find in the search bar webgl.force-enabled
+3. And make it **true** if it was *false* webgl.force-enabled 
+
+
+
 ## > Site for publicly use
 > - Educational site with the code and previews of the example what that code doing 
 > - This project included some 3D objects in GLTF format, it's free to use in your project all models made by @SarvarMuzaffarov and they don't have any license (Use as you think and you want :) 
