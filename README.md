@@ -37,8 +37,6 @@ In this project I use one more library besides highlight.js --> highlightjs-line
 
 
 
----
-title: The site FH Fhelper (Stand for FrontEnd Helper) helping people with FrontEnd development.
-author: Sarvar Muzaffarov
-date: 11/25/2025
----
+**Title:** The site FH Fhelper (Stand for FrontEnd Helper) helping people with FrontEnd development.  
+**Author:** Sarvar Muzaffarov  
+**Date:** 11/25/2025 
